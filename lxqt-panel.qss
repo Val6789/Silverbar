@@ -1,0 +1,26 @@
+LXQtPanel #BackgroundWidget
+{
+background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #aaa, stop:0.1 #EFF0F1, stop:0.65 #EFF0F1, stop:0.7 silver);
+}
+
+#MainMenu:hover
+{
+border: none;
+background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #EFF0F1, stop:1 rgba(0, 0, 0, 0));
+}
+
+#TaskBar QToolButton
+{
+border: none;
+background: #DCDDDE;
+}
+
+#TaskBar QToolButton:on, #TaskBar QToolButton:hover, #TaskBar QToolButton:pressed
+{
+background: #aaa;
+}
+
+#TaskBar QToolButton[urgent="true"]
+{
+background: orange;
+}
